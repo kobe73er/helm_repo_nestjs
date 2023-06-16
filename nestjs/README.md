@@ -1,7 +1,7 @@
 ## How to deploy
 ```shell
-- cd /Users/andrew/Desktop/content/client/crmcoaching/crm-coach/code/app/nestjs_template_project/helmChart
-- helm upgrade --install nestj ./ --values ./values.yaml --recreate-pods --namespace backend
+- cd /Users/andrew/Desktop/content/client/crmcoaching/crm-coach/code/app/helm_repo/nestjs/
+- helm upgrade --install nestjs ./ --values ./values.yaml --recreate-pods --namespace backend
 ```
 
 
